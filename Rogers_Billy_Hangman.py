@@ -1,7 +1,7 @@
 import random
 
-print ("Welcome to Billy\'s game of hangman.")
-print ("Goodluck!")
+print ("                               Welcome to Billy\'s game of hangman.")
+print ("                                             Goodluck!")
 print ()
 
 def get_guess():
