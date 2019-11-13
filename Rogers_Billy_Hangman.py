@@ -2,17 +2,20 @@ import random
 
 print ("Welcome to Billy\'s game of hangman.")
 print ("Goodluck!")
+print ()
 
 def get_guess():
   
   dashes = "*" * len(secret_word)
   guesses_left = 7
-  
+
   while guesses_left > -1 and not dashes == secret_word:
     
     # amount of dashes and guesses left
     print(dashes)
+    print ()
     print ("guesses left: " + str(guesses_left))
+    print ()
     
     # user input
     guess = input("Please enter your next guess:")
