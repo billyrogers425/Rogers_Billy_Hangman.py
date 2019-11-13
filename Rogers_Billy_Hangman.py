@@ -26,10 +26,12 @@ def get_guess():
       
     elif guess in secret_word:
       print ("correct! that letter is in the word")
+      print ()
       dashes = update_dashes(secret_word, dashes, guess)
       
     else:
       print ("That letter is not in the secret word!")
+      print ()
       guesses_left -= 1
     
   if guesses_left < 0:
